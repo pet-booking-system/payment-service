@@ -12,6 +12,8 @@ import (
 	"payment-service/internal/server"
 	"payment-service/internal/service"
 
+	_ "github.com/lib/pq"
+
 	paymentpb "github.com/pet-booking-system/proto-definitions/payment"
 
 	"google.golang.org/grpc"
